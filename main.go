@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/rojbar/sftps/cmd"
+import "github.com/rojbar/rftps/cmd"
 
 func main() {
 	cmd.Execute()
