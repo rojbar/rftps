@@ -12,8 +12,8 @@ import (
 // startCmd represents the start command
 var startCmd = &cobra.Command{
 	Use:   "start",
-	Short: "starts an rftp server in the specified port defaults to 50000",
-	Long:  `starts an rftp server in the specified port defaults to 50000`,
+	Short: "Starts an rftp server in the specified port defaults to 50000",
+	Long:  `Starts an rftp server in the specified port defaults to 50000`,
 	Run: func(cmd *cobra.Command, args []string) {
 		rftpis.Server()
 	},

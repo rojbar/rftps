@@ -30,10 +30,7 @@ var cfgFile string
 var rootCmd = &cobra.Command{
 	Use:   "rftps",
 	Short: "rojbar file transfer protocol : server",
-	Long: `rojbar file transfer protocol : server
-	
-	edit the config file for server customization, (default is $HOME/.rfps.yaml) 
-	`,
+	Long:  `rojbar file transfer protocol : server`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
