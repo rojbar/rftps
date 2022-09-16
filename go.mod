@@ -3,9 +3,9 @@ module github.com/rojbar/rftps
 go 1.18
 
 require (
-	github.com/rojbar/rftpis v0.0.0-20220825004645-ca78fe1bc32c
+	github.com/rojbar/rftpis v0.0.0-20220916040422-fb11139c91a9
 	github.com/spf13/cobra v1.5.0
-	github.com/spf13/viper v1.12.0
+	github.com/spf13/viper v1.13.0
 )
 
 require (
@@ -16,7 +16,7 @@ require (
 	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
-	github.com/pelletier/go-toml/v2 v2.0.3 // indirect
+	github.com/pelletier/go-toml/v2 v2.0.5 // indirect
 	github.com/rojbar/rftpiu v0.0.0-20220831223704-1a5e463d95cd // indirect
 	github.com/spf13/afero v1.9.2 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
@@ -26,7 +26,7 @@ require (
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.23.0 // indirect
-	golang.org/x/sys v0.0.0-20220823224334-20c2bfdbfe24 // indirect
+	golang.org/x/sys v0.0.0-20220915200043-7b5979e65e41 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
